@@ -1,0 +1,35 @@
+# 🏛️ dao-proposal-system
+
+On-chain proposal system with quorum rules and execution timelock
+
+## Features
+
+- On-chain proposals
+- Quorum rules
+- Timelock execution
+- Vote tracking
+- Discussion threads
+
+## Tech Stack
+
+- **Smart Contracts:** Solidity ^0.8.20
+- **Framework:** Hardhat
+- **Frontend:** Next.js + TypeScript
+- **Web3:** ethers.js / wagmi
+
+## Getting Started
+
+```bash
+npm install
+npx hardhat compile
+npx hardhat test
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+## License
+
+MIT
+
+---
+
+Part of the **DAO** dApp collection by [@rukinem](https://github.com/rukinem)
